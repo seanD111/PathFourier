@@ -38,6 +38,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -66,6 +67,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ComplexStroke.cs" />
+    <Compile Include="ComplexStrokeMatcher.cs" />
     <Compile Include="PathMatcher.xaml.cs">
       <DependentUpon>PathMatcher.xaml</DependentUpon>
       <SubType>Code</SubType>
